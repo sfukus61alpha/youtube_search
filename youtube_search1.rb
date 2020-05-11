@@ -4,7 +4,7 @@ youtube = Google::Apis::YoutubeV3::YouTubeService.new
 youtube.key = "AIzaSyA_cw3mAC7B0iMclJy7utcs2uDZ5SYxdZo"
 
 
-youtube_search_list = youtube.list_searches("id,snippet", type: "video", q: "サッカー", max_results: 50)
+youtube_search_list = youtube.list_searches("id,snippet", type: "video", q: "トランプ", max_results: 50)
 
 text = ""
 
